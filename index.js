@@ -5,12 +5,12 @@ function calculate(){
 
     switch(op){
         case "+":
-            document.writeln(n1+n2);
+            console.log(n1+n2);
         case "-":
-            document.writeln(n1-n2);
+            console.log(n1-n2);
         case "*":
-            document.writeln(n1*n2);
+            console.log(n1*n2);
         case "/":
-            document.writeln(n1/n2);
+            console.log(n1/n2);
     }
 }
